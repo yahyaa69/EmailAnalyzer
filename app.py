@@ -6,7 +6,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-client = Groq(api_key="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")
+client = Groq(api_key="**")
 
 app = FastAPI()
 
